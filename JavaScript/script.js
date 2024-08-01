@@ -61,9 +61,15 @@ let navCounter = 1
 let openNav = () => {
     if (navCounter == 1) {
         document.querySelector('.phoneLinks').style.display = "block";
+        document.querySelector(".phoneLinksContainer").style.display = "block";
+        document.querySelector(".burger").style.display = " none";
+        document.querySelector(".burger-open").style.display = " flex";
         return navCounter = 0
     } if (navCounter == 0) {
         document.querySelector('.phoneLinks').style.display = "none";
+        document.querySelector(".phoneLinksContainer").style.display = "none";
+        document.querySelector(".burger").style.display = " flex";
+        document.querySelector(".burger-open").style.display = " none";
         navCounter = 1
     }
 }

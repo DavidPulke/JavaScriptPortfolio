@@ -35,6 +35,65 @@ html {
 
 }
 
+/* burger when its open */
+.burger-open {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.burger-open .open-line1 {
+    transform: rotateZ(50deg);
+    margin-top: 30px;
+    position: absolute;
+}
+
+.burger-open .open-line2 {
+    transform: rotateZ(130deg);
+    margin-top: 30px;
+    position: absolute;
+}
+
+.burger-line1 {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+    margin: 3px;
+    animation: rainbow 8s ease infinite;
+    background-size: 1400% 1400%;
+}
+
+.burger-line2 {
+    width: 80%;
+    height: 3px;
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+    margin: 3px;
+    background-size: 1400% 1400%;
+    animation: rainbow 8s ease infinite;
+}
+
+.burger-line3 {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+    margin: 3px;
+    background-size: 1400% 1400%;
+    animation: rainbow 8s ease infinite;
+}
+
+
+
+.burger {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 
 .phoneNav {
@@ -57,7 +116,26 @@ html {
 }
 
 .phoneLinksContainer {
-    margin-right: -40px;
+    background-color: #000000c4;
+    animation: growSize 1s ease-in;
+    height: 149px;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 90px;
+    left: 16%;
+    padding: 0px 20px 20px 50px;
+    display: none;
+}
+
+@keyframes growSize {
+    from {
+        height: 20px;
+    }
+
+    to {
+        height: 149px;
+    }
 }
 
 .phoneNavInfo a {
