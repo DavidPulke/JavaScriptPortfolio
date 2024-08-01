@@ -141,7 +141,7 @@ html {
 .phoneNavInfo a {
     display: block;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-family: roboto;
     font-size: 16px;
     text-transform: uppercase;
@@ -262,7 +262,8 @@ nav a {
     padding: 8px 10px;
 }
 
-.link-border::after {
+.link-border::after,
+.link-border-phone::after {
     content: '';
     display: block;
     width: 0;
@@ -274,9 +275,12 @@ nav a {
     transition: all .3s;
 }
 
-.link-border:hover::after {
+.link-border:hover::after,
+.link-border-phone:hover::after {
     width: 100%;
 }
+
+
 
 nav a:hover:after {
     transform-origin: 0% 50%;
