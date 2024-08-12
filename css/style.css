@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ga+Maamli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Style+Script&display=swap');
+
+
 /* עיצוב כללי של הסקרולר */
 ::-webkit-scrollbar {
     width: 12px;
@@ -24,6 +27,7 @@
     background: #555;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +38,19 @@ html {
     scroll-behavior: smooth;
 
 }
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-clip: text;
+    -webkit-text-fill-color: #fff;
+}
+
+
+
+
 
 /* burger when its open */
 .burger-open {
@@ -109,6 +126,8 @@ html {
     left: 0px;
 }
 
+
+
 .phoneLinks {
     list-style-type: none;
     display: none;
@@ -165,6 +184,48 @@ html {
     }
 }
 
+/* theme gallery */
+.themes {
+    position: absolute;
+    top: -4px;
+    left: -9px;
+}
+
+.blocksBtn {
+    color: white;
+    top: -45px;
+}
+
+.themesGallery {
+    clip-path: polygon(23% 25%, 100% 25%, 100% 90%, 0 90%, 0 25%, 5% 25%, 0% 11%);
+    position: absolute;
+    width: 220px;
+    height: 250px;
+    background-color: #00000073;
+    left: 50px;
+    top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+    display: none;
+    z-index: 5;
+    border-radius: 16px;
+}
+
+
+
+.blocksBtn {
+    position: relative;
+}
+
+
+
+
+
+
+
 /* the pc header */
 
 header {
@@ -177,7 +238,7 @@ header {
 
 header button {
     position: absolute;
-    z-index: 2;
+    z-index: 6;
     top: 20px;
     left: 20px;
     background-clip: text;
@@ -185,11 +246,17 @@ header button {
     cursor: pointer;
 }
 
+#darkBtn,
+#lightBtn {
+    top: 90px;
+    color: white;
+}
+
 #lightBtn {
     display: none;
 }
 
-header button i {
+button i {
     font-size: 18pt;
 }
 
@@ -212,7 +279,7 @@ header nav {
 }
 
 .logo h2 {
-    font-family: fantasy, roboto, arial;
+    font-family: Style Script, fantasy, roboto, arial;
     padding-left: 7px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -720,6 +787,12 @@ a:active {
     background-position: center;
 }
 
+.jsTwo {
+    background-image: url(../gallery/X-Oexample.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .video {
     position: absolute;
     width: 254px;
@@ -731,9 +804,11 @@ a:active {
 .video:hover {
     scale: 1.5;
     border-radius: 100px;
+    cursor: none;
 }
 
-.jsOne a {
+.jsOne a,
+.jsTwo a {
     width: 100%;
     height: 100%;
     color: white;
@@ -947,10 +1022,14 @@ a:active {
     align-items: center;
     margin-top: 20px;
     color: #e0b012;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: Style Script, 'Roboto Condensed', sans-serif;
     font-size: 16pt;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px 10px 0px 10px;
+}
+
+.credits span {
+    letter-spacing: 2px;
 }
 
 

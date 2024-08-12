@@ -1,3 +1,8 @@
+let body = document.querySelector("body");
+
+
+
+
 // scroll Movement
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -13,9 +18,12 @@ const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el))
 
 
+
+
+
 // dark Mode
 let darkMode = () => {
-    document.querySelector('body').style.backgroundColor = '#666';
+    body.style.backgroundColor = '#666';
     document.getElementById('darkBtn').style.display = 'none';
     document.getElementById('lightBtn').style.display = 'block';
     let links = document.querySelectorAll(".link-border");
@@ -25,7 +33,7 @@ let darkMode = () => {
     localStorage.setItem("Mode", "darkMode")
 }
 let lightMode = () => {
-    document.querySelector('body').style.backgroundColor = '#fff';
+    body.style.backgroundColor = '#fff';
     document.getElementById('darkBtn').style.display = 'block';
     document.getElementById('lightBtn').style.display = 'none';
     let links = document.querySelectorAll(".link-border");
@@ -73,3 +81,500 @@ let openNav = () => {
         navCounter = 1
     }
 }
+
+
+
+
+// open Theme
+let flag = true
+let openTheme = () => {
+
+    if (flag == true) {
+        document.querySelector(".themesGallery").style.display = "grid";
+        return flag = false
+    }
+
+    if (flag == false) {
+        document.querySelector(".themesGallery").style.display = "none"
+        flag = true
+    }
+}
+
+let flag2 = true
+
+let openPcTheme = () => {
+    if (flag2 == true) {
+        document.querySelector(".pc-themesGallery").style.display = "grid";
+        return flag2 = false
+    }
+
+    if (flag2 == false) {
+        document.querySelector(".pc-themesGallery").style.display = "none"
+        flag2 = true
+    }
+}
+
+
+
+
+if (localStorage.getItem("theme") == "PC MODE") {
+    document.querySelector('head').innerHTML = `
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" href="./gallery/Icon David.jpg">
+    <title>JS Portfolio</title>
+
+    <link rel="stylesheet" href="./sass/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/pcStyle.css">
+        <script defer src="./JavaScript/script.js"></script>
+    `;
+
+
+    body.innerHTML = `
+         <header class="pc-header">
+        <div class="pc-themes"><button class="pc-themeBtn" onclick="openPcTheme()"><i
+                    class="fa-solid fa-palette"></i></button>
+        </div>
+        <span>
+            <img src="./gallery/Icon David.jpg" alt="Icon">
+        </span>
+        <aside class="pc-themesGallery">
+            <div class="blocks">
+                <button class="blocksBtn" onclick="origin()"><i
+                        class="fa-solid fa-house-chimney-user"></i></button>
+            </div>
+
+        </aside>
+
+        <nav class="pc-nav">
+            <ul class="pc-ul">
+                <li><button onclick="homePage()">Portfolio</button></li>
+                <li class="projectsBtns">
+                    <button onclick="projects()">Projects</button>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    
+    <span>
+        <img src="./gallery/codeMini.png" alt="miniCode">
+    </span>
+
+    <main class="pc-about-container">
+    <div class="pc-toNone">
+            <span>
+                <img src="./gallery/fingerPrint.png" alt="fingerPrint">
+            </span>
+            <div class="about-content">
+                <h2>DavidPolak</h2>
+
+                <div class="main-text hidden">
+
+                    <h3>I'm A FullStack Developer</h3>
+                </div>
+            </div>
+            <span class="download-cv">
+                <a href="#">Download CV</a>
+            </span>
+        </div>
+
+        <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>
+    </main>
+
+
+    <span class="copyright">
+        <h4>&#169;DavidPolak</h4>
+    </span>
+
+    `
+}
+
+
+
+
+// theme mangement
+let pcTheme = () => {
+    localStorage.setItem("theme", "PC MODE")
+    document.querySelector('head').innerHTML = `
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" href="./gallery/Icon David.jpg">
+    <title>JS Portfolio</title>
+
+    <link rel="stylesheet" href="./sass/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/pcStyle.css">
+        <script defer src="./JavaScript/script.js"></script>
+    `;
+
+
+    body.innerHTML = `
+        <header class="pc-header">
+        <div class="pc-themes"><button class="pc-themeBtn" onclick="openPcTheme()"><i
+                    class="fa-solid fa-palette"></i></button>
+        </div>
+        <span>
+            <img src="./gallery/Icon David.jpg" alt="Icon">
+        </span>
+        <aside class="pc-themesGallery">
+            <div class="blocks">
+                <button class="blocksBtn" onclick="origin()"><i
+                        class="fa-solid fa-house-chimney-user"></i></button>
+            </div>
+
+        </aside>
+
+        <nav class="pc-nav">
+            <ul class="pc-ul">
+                <li><button onclick="homePage()">Portfolio</button></li>
+                <li class="projectsBtns">
+                    <button onclick="projects()">Projects</button>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <span>
+        <img src="./gallery/codeMini.png" alt="miniCode">
+    </span>
+
+    <main class="pc-about-container">
+        <div class="pc-toNone">
+            <span>
+                <img src="./gallery/fingerPrint.png" alt="fingerPrint">
+            </span>
+            <div class="about-content">
+                <h2>DavidPolak</h2>
+
+                <div class="main-text hidden">
+
+                    <h3>I'm A FullStack Developer</h3>
+                </div>
+            </div>
+            <span class="download-cv">
+                <a href="#">Download CV</a>
+            </span>
+        </div>
+
+        <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>
+    </main>
+
+
+    <span class="copyright">
+        <h4>&#169;DavidPolak</h4>
+    </span>
+
+    `
+
+
+
+}
+
+
+
+
+
+
+
+/* HOME PAGE BUTTON */
+const homePage = () => {
+    localStorage.removeItem("modeData")
+    document.querySelector(".projectsBtns").innerHTML = `
+    <button onclick="projects()">Projects</button>
+    `
+
+    document.querySelector("main").innerHTML = `<span>
+            <img src="./gallery/fingerPrint.png" alt="fingerPrint">
+        </span>
+        <div class="about-content">
+            <h2>DavidPolak</h2>
+
+            <div class="main-text hidden">
+
+                <h3>I'm A FullStack Developer</h3>
+            </div>
+        </div>
+        <span class="download-cv">
+            <a href="#">Download CV</a>
+        </span>`
+}
+
+
+
+
+
+// PROJECTS BUTTON
+function projects() {
+    document.querySelector(".projectsBtns").innerHTML = `
+    <button class="blue" onclick="projects()">CSS</button> &nbsp;&nbsp;&nbsp;
+        <button class="orange" onclick="jsProjects()">JS</button>
+    `
+    document.querySelector("main").innerHTML = `<section id="pc-css-projects">
+            <div class="pc-project one">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+                1
+            </div>
+            <div class="pc-project two">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                2
+            </div>
+            <div class="pc-project three">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                3
+            </div>
+            <div class="pc-project four">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                4
+            </div>
+        </section>
+        <button class="btn next-btn" onclick="next()"> <i class="fa-solid fa-circle-right"></i> </button>
+
+        <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>`
+}
+
+
+
+
+// JS PROJECTS BUTTON
+function jsProjects() {
+    document.querySelector("main").innerHTML = `<section id="pc-css-projects">
+            <div class="pc-js-project jsOne">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+                1
+            </div>
+            <div class="pc-js-project jsTwo">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                2
+            </div>
+            <div class="pc-js-project jsThree">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                3
+            </div>
+            <div class="pc-js-project jsFour">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                4
+            </div>
+        </section>
+        <button class="js-btn next-btn" onclick="jsNext()"> <i class="fa-solid fa-circle-right"></i> </button>
+
+        <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>
+
+        
+        `
+}
+
+function next() {
+    document.querySelector("main").innerHTML = `<section id="pc-css-projects">
+            <div class="pc-project five">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+                5
+            </div>
+            <div class="pc-project six">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                6
+            </div>
+            <div class="pc-project seven">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                7
+            </div>
+            <div class="pc-project eight">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                8
+            </div>
+        </section>
+        <button class="btn next-btn" onclick="previous()"> <i class="fa-solid fa-circle-left"></i> </button>
+
+        <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>
+        `
+}
+function previous() {
+    document.querySelector("main").innerHTML = `<section id="pc-css-projects">
+            <div class="pc-project one">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+                1
+            </div>
+            <div class="pc-project two">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                2
+            </div>
+            <div class="pc-project three">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                3
+            </div>
+            <div class="pc-project four">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                4
+            </div>
+        </section>
+        <button class="btn next-btn" onclick="next()"> <i class="fa-solid fa-circle-right"></i> </button>
+
+        <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>
+        `
+}
+
+
+
+// JS NEXT AND PREVIOUS
+
+function jsNext() {
+
+    document.querySelector("main").innerHTML = `<section id="pc-css-projects">
+            <div class="pc-js-project jsFive">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+                5
+            </div>
+            <div class="pc-js-project jsSix">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                6
+            </div>
+            <div class="pc-js-project jsSeven">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                7
+            </div>
+            <div class="pc-js-project jsEight">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                8
+            </div>
+        </section>
+        <button class="js-btn next-btn" onclick="jsPrevious()"> <i class="fa-solid fa-circle-left"></i> </button>
+        <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>
+        `
+
+}
+
+
+
+function jsPrevious() {
+
+    document.querySelector("main").innerHTML = `<section id="pc-css-projects">
+            <div class="pc-js-project jsOne">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+                1
+            </div>
+            <div class="pc-js-project jsTwo">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                2
+            </div>
+            <div class="pc-js-project jsThree">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                3
+            </div>
+            <div class="pc-js-project jsFour">
+                <div class="overlay">
+                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                4
+            </div>
+        </section>
+        <button class="js-btn next-btn" onclick="jsNext()"> <i class="fa-solid fa-circle-right"></i> </button>
+
+        <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>
+        `
+
+}
+
+
+
+
+
+
+function origin() {
+    localStorage.removeItem("theme");
+    history.go()
+}
+
+
+
+
+
+
+

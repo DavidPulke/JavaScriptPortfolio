@@ -12,15 +12,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
 
 <body>
     <header>
+        <div class="themes"><button class="themeBtn" onclick="openTheme()"><i class="fa-solid fa-palette"></i></button>
+        </div>
 
-        <button id="darkBtn" onclick="darkMode()"><i class="fa-solid fa-moon"></i></button>
-        <button id="lightBtn" onclick="lightMode()"><i class="fa-regular fa-moon"></i></button>
+
+        <!-- themes -->
+        <aside class="themesGallery">
+            <div class="blocks">
+                <button class="blocksBtn" onclick="pcTheme()"><i class="fa-solid fa-desktop"></i></button>
+            </div>
+
+            <button id="darkBtn" onclick="darkMode()"><i class="fa-solid fa-moon"></i></button>
+            <button id="lightBtn" onclick="lightMode()"><i class="fa-regular fa-moon"></i></button>
+        </aside>
 
         <!-- phone navbar -->
         <div class="phoneNav">
@@ -49,6 +60,9 @@
                 </div>
             </div>
         </div>
+
+
+
 
 
         <!-- pc navbar -->
@@ -86,6 +100,7 @@
         </div>
     </section>
 
+
     <!-- Home Display -->
     <main class="home-display">
         <h1 class="hidden"><span>David</span></h1>
@@ -109,7 +124,7 @@
 
 
     <!-- html css projects -->
-    <section class="projects-section">
+    <section class="projects-section ">
         <h1 class="hidden">Projects</h1>
         <p>Those are my <span class="blue"> CSS</span> Projects</p>
 
@@ -157,7 +172,7 @@
     <div class="bottom-border">&nbsp;</div>
 
     <!-- js projects -->
-    <section class="projects-section">
+    <section class="projects-section ">
         <h1 class="hidden">Projects</h1>
         <p>Those are my <span class="orange">JS</span> Projects</p>
 
@@ -166,8 +181,8 @@
                 <a href="https://davidpulke.github.io/BoxGame/" target="_blank">Box Game</a>
                 <video class="video" src="./videos/boxGameVideo.mp4"></video>
             </div>
-            <div class="project hidden">
-                <a href="#">Flying Game</a>
+            <div class="project jsTwo hidden">
+                <a href="https://davidpulke.github.io/X-O-Game/">X - O</a>
             </div>
             <div class="project hidden">
                 <a href="#">X - O</a>
@@ -249,7 +264,7 @@
 
     <footer>
         <div class="credits">
-            credits to
+            <span>credits to</span>
             <img src="./gallery/Icon David.jpg" alt="">
             DavidPolak
         </div>
