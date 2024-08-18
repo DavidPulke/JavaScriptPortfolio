@@ -100,8 +100,9 @@ let openTheme = () => {
     }
 }
 
-let flag2 = true
 
+// open pc theme
+let flag2 = true
 let openPcTheme = () => {
     if (flag2 == true) {
         document.querySelector(".pc-themesGallery").style.display = "grid";
@@ -116,7 +117,7 @@ let openPcTheme = () => {
 
 
 
-
+// save info in localStorage
 if (localStorage.getItem("theme") == "PC MODE") {
     document.querySelector('head').innerHTML = `
     <meta charset="UTF-8">
@@ -135,7 +136,7 @@ if (localStorage.getItem("theme") == "PC MODE") {
 
 
     body.innerHTML = `
-         <header class="pc-header">
+        <header class="pc-header">
         <div class="pc-themes"><button class="pc-themeBtn" onclick="openPcTheme()"><i
                     class="fa-solid fa-palette"></i></button>
         </div>
@@ -331,25 +332,25 @@ function projects() {
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-project one">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="./html/inBetween/css-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 1
             </div>
             <div class="pc-project two">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 2
             </div>
             <div class="pc-project three">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 3
             </div>
             <div class="pc-project four">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 4
             </div>
@@ -371,25 +372,25 @@ function jsProjects() {
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-js-project jsOne">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="/html/jsInBetween/js-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 1
             </div>
             <div class="pc-js-project jsTwo">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="/html/jsInBetween/js-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 2
             </div>
             <div class="pc-js-project jsThree">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="/html/jsInBetween/js-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 3
             </div>
             <div class="pc-js-project jsFour">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="/html/jsInBetween/js-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 4
             </div>
@@ -406,29 +407,30 @@ function jsProjects() {
         `
 }
 
+// next buton for css projects
 function next() {
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-project five">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="./html/inBetween/css-5.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 5
             </div>
             <div class="pc-project six">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-6.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 6
             </div>
             <div class="pc-project seven">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-7.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 7
             </div>
             <div class="pc-project eight">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-8.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 8
             </div>
@@ -442,29 +444,31 @@ function next() {
         </div>
         `
 }
+
+// previous buton for css projects
 function previous() {
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-project one">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="./html/inBetween/css-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 1
             </div>
             <div class="pc-project two">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 2
             </div>
             <div class="pc-project three">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 3
             </div>
             <div class="pc-project four">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 4
             </div>
@@ -482,19 +486,18 @@ function previous() {
 
 
 // JS NEXT AND PREVIOUS
-
 function jsNext() {
 
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-js-project jsFive">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="/html/jsInBetween/js-5.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 5
             </div>
             <div class="pc-js-project jsSix">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="/html/jsInBetween/js-6.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 6
             </div>
@@ -524,29 +527,28 @@ function jsNext() {
 
 
 function jsPrevious() {
-
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-js-project jsOne">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="/html/jsInBetween/js-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 1
             </div>
             <div class="pc-js-project jsTwo">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="/html/jsInBetween/js-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 2
             </div>
             <div class="pc-js-project jsThree">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="/html/jsInBetween/js-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 3
             </div>
             <div class="pc-js-project jsFour">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="/html/jsInBetween/js-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 4
             </div>
@@ -566,7 +568,7 @@ function jsPrevious() {
 
 
 
-
+// a restart function 
 function origin() {
     localStorage.removeItem("theme");
     history.go()
