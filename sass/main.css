@@ -15,7 +15,7 @@
 .projectsInBtw {
   font-family: "Roboto", sans-serif;
   color: #fff;
-  background: url("/gallery/waterBg.png") no-repeat center center fixed;
+  background: url("../gallery/waterBg.png") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -255,7 +255,7 @@
 }
 @media (max-width: 768px) {
   .projectsInBtw {
-    background: url("/gallery/waterPhoneBg.png") no-repeat center center fixed;
+    background: url("../gallery/waterPhoneBg.png") no-repeat center center fixed;
     background-size: cover;
   }
   .fish-con,
@@ -299,7 +299,7 @@
 }
 
 .js-body {
-  background-image: url(/gallery/js-images/volcanoBig.jpg);
+  background-image: url(../gallery/js-images/volcanoBig.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
