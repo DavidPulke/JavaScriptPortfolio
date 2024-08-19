@@ -145,25 +145,29 @@
 
             <div class="project css three hidden">
                 <div class="overlay">
-                    <a href="#" class="cssLink"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-3.html" class="cssLink"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="project css four hidden">
                 <div class="overlay">
-                    <a href="#" class="cssLink"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-4.html" class="cssLink"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="project css five hidden">
                 <div class="overlay">
-                    <a href="#" class="cssLink"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-5.html" class="cssLink"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="project css six hidden">
                 <div class="overlay">
-                    <a href="#" class="cssLink"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="./html/inBetween/css-6.html" class="cssLink"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
@@ -179,7 +183,7 @@
 
         <div class="projects-gallery">
             <div class="project jsOne hidden">
-                <a href="/html/jsInBetween/js-1.html" target="_blank">Box Game</a>
+                <a href="/html/jsInBetween/js-1.html">Box Game</a>
                 <video class="video" src="./videos/boxGameVideo.mp4"></video>
             </div>
             <div class="project jsTwo hidden">
@@ -235,23 +239,27 @@
                                     <div class="app-form">
                                         <form action="">
                                             <div class="app-form-group">
-                                                <input class="app-form-control" placeholder="NAME*"
-                                                    autocomplete="given-name" required>
+                                                <input id="name" type="text" class="app-form-control"
+                                                    placeholder="NAME*" autocomplete="given-name" maxlength="22"
+                                                    required>
                                             </div>
                                             <div class="app-form-group">
-                                                <input class="app-form-control" placeholder="EMAIL*"
-                                                    autocomplete="email" required>
+                                                <input id="mail" type="email" class="app-form-control"
+                                                    placeholder="EMAIL*" autocomplete="email" required>
                                             </div>
                                             <div class="app-form-group">
-                                                <input type="tel" class="app-form-control" placeholder="CONTACT NO*"
-                                                    autocomplete="mobile" required>
+                                                <input id="tel" type="tel" class="app-form-control"
+                                                    placeholder="CONTACT NO*" autocomplete="mobile" required>
                                             </div>
                                             <div class="app-form-group message">
-                                                <input class="app-form-control" placeholder="MESSAGE*" required>
+                                                <input maxlength="50" id="msg" class="app-form-control"
+                                                    placeholder="MESSAGE*" required>
                                             </div>
                                             <div class="app-form-group buttons">
-                                                <input type="submit" class="app-form-button" value="SEND"></input>
+                                                <input onclick="formSent()" type="submit" class="app-form-button"
+                                                    value="SEND"></input>
                                             </div>
+                                            <div id="msgAfter"></div>
                                         </form>
                                     </div>
                                 </div>

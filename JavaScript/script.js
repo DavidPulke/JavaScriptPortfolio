@@ -49,6 +49,20 @@ if (localStorage.getItem("Mode") == 'darkMode') {
     lightMode()
 )
 
+
+// form sent msg
+const formSent = () => {
+    let uName = document.getElementById("name").value;
+    let mail = document.getElementById("mail").value;
+    let tel = document.getElementById("tel").value;
+    let msg = document.getElementById("msg").value;
+    if (uName && mail.includes('@gmail.com') && mail.length > 8 && tel && msg) {
+        document.getElementById("msgAfter").innerHTML = `Thank You ${uName} for you'r comment 	&#9829;`
+        document.getElementById("msgAfter").style.color = "lightGreen"
+    }
+
+}
+
 // video play
 const videos = document.querySelectorAll('.video');
 
