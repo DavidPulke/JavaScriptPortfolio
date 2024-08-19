@@ -386,7 +386,7 @@ function jsProjects() {
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-js-project jsOne">
                 <div class="overlay">
-                    <a href="/html/jsInBetween/js-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="./html/jsInBetween/js-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 1
             </div>
