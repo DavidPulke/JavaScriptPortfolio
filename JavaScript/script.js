@@ -335,7 +335,14 @@ const homePage = () => {
 
 
 
+let link = `../inBetween/`;
+const isGithubPages = window.location.hostname.includes('github.io');
 
+link.forEach(lin => {
+    if (isGithubPages) {
+        lin.href = lin.href.replace('../inBetween/', '/JavaScriptPortfolio/inBetween/');
+    }
+});
 
 // PROJECTS BUTTON
 function projects() {
@@ -346,25 +353,25 @@ function projects() {
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-project one">
                 <div class="overlay">
-                    <a href="../inBetween/css-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="${link}css-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 1
             </div>
             <div class="pc-project two">
                 <div class="overlay">
-                    <a href="../inBetween/css-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 2
             </div>
             <div class="pc-project three">
                 <div class="overlay">
-                    <a href="../inBetween/css-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 3
             </div>
             <div class="pc-project four">
                 <div class="overlay">
-                    <a href="../inBetween/css-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 4
             </div>
@@ -426,25 +433,25 @@ function next() {
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-project five">
                 <div class="overlay">
-                    <a href="../inBetween/css-5.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="${link}css-5.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 5
             </div>
             <div class="pc-project six">
                 <div class="overlay">
-                    <a href="../inBetween/css-6.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-6.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 6
             </div>
             <div class="pc-project seven">
                 <div class="overlay">
-                    <a href="../inBetween/css-7.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-7.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 7
             </div>
             <div class="pc-project eight">
                 <div class="overlay">
-                    <a href="../inBetween/css-8.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-8.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 8
             </div>
@@ -464,25 +471,25 @@ function previous() {
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
             <div class="pc-project one">
                 <div class="overlay">
-                    <a href="../inBetween/css-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    <a href="${link}css-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
                 1
             </div>
             <div class="pc-project two">
                 <div class="overlay">
-                    <a href="../inBetween/css-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 2
             </div>
             <div class="pc-project three">
                 <div class="overlay">
-                    <a href="../inBetween/css-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 3
             </div>
             <div class="pc-project four">
                 <div class="overlay">
-                    <a href="../inBetween/css-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${link}css-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 4
             </div>
