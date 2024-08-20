@@ -338,11 +338,10 @@ const homePage = () => {
 let link = `../inBetween/`;
 const isGithubPages = window.location.hostname.includes('github.io');
 
-link.forEach(lin => {
-    if (isGithubPages) {
-        lin.href = lin.href.replace('../inBetween/', '/JavaScriptPortfolio/inBetween/');
-    }
-});
+if (isGithubPages) {
+    link = `/JavaScriptPortfolio/inBetween/`
+}
+
 
 // PROJECTS BUTTON
 function projects() {
