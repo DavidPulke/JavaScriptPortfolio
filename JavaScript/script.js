@@ -336,9 +336,8 @@ const homePage = () => {
 
 
 let link = `../inBetween/`;
-const isGithubPages = window.location.hostname.includes('github.io');
 
-if (isGithubPages) {
+if (window.location.hostname.includes('github.io')) {
     link = `/JavaScriptPortfolio/inBetween/`
 }
 
