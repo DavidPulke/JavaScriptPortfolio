@@ -350,7 +350,7 @@ span img[alt="Icon"] {
 
 .seven {
     position: relative;
-    background-image: url(../gallery/guitarPBg.png);
+    background-image: url(../gallery/guitarBG.png);
     background-size: cover;
     background-position: center;
     overflow: hidden;
