@@ -789,11 +789,21 @@ a:active {
     background-position: center;
 }
 
+
+
 .jsTwo {
+    background-image: url(../gallery/manageUBG.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.jsThree {
     background-image: url(../gallery/X-Oexample.png);
     background-size: cover;
     background-position: center;
 }
+
 
 .video {
     position: absolute;
@@ -810,7 +820,8 @@ a:active {
 }
 
 .jsOne a,
-.jsTwo a {
+.jsTwo a,
+.jsThree a {
     width: 100%;
     height: 100%;
     color: white;

@@ -301,6 +301,92 @@ span img[alt="Icon"] {
     opacity: 1;
 }
 
+
+/* html css projects */
+.one {
+    position: relative;
+    background-image: url(../gallery/ProjectOne.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.two {
+    position: relative;
+    background-image: url(../gallery/projectTwo.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.three {
+    position: relative;
+    background-image: url(../gallery/projectThree.png);
+    background-size: cover;
+    background-position: right;
+    overflow: hidden;
+}
+
+.four {
+    position: relative;
+    background-image: url(../gallery/projectFour.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.five {
+    position: relative;
+    background-image: url(../gallery/ProjectFive.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.six {
+    position: relative;
+    background-image: url(../gallery/ProjectSix.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.seven {
+    position: relative;
+    background-image: url(../gallery/guitarPBg.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.eight {
+    position: relative;
+    background-image: url(../gallery/css-7.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* javascript projects */
+
+.jsOne {
+    background-image: url(../gallery/boxGame.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.jsTwo {
+    background-image: url(../gallery/manageUBG.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.jsThree {
+    background-image: url(../gallery/X-Oexample.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .overlay-link {
     background-color: #fff;
     color: #333;

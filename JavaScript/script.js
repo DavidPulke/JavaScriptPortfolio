@@ -349,29 +349,29 @@ function projects() {
         <button class="orange" onclick="jsProjects()">JS</button>
     `
     document.querySelector("main").innerHTML = `<section id="pc-css-projects">
-            <div class="pc-project one">
+            <div class="pc-project  one">
                 <div class="overlay">
                     <a href="${link}css-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
-                1
+                
             </div>
             <div class="pc-project two">
                 <div class="overlay">
                     <a href="${link}css-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                2
+                
             </div>
             <div class="pc-project three">
                 <div class="overlay">
                     <a href="${link}css-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                3
+                
             </div>
             <div class="pc-project four">
                 <div class="overlay">
                     <a href="${link}css-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                4
+                
             </div>
         </section>
         <button class="btn next-btn" onclick="next()"> <i class="fa-solid fa-circle-right"></i> </button>
@@ -393,19 +393,19 @@ function jsProjects() {
                 <div class="overlay">
                     <a href="../jsInBetween/js-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
-                1
+                
             </div>
             <div class="pc-js-project jsTwo">
                 <div class="overlay">
                     <a href="../jsInBetween/js-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                2
+                
             </div>
             <div class="pc-js-project jsThree">
                 <div class="overlay">
                     <a href="../jsInBetween/js-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                3
+                
             </div>
             <div class="pc-js-project jsFour">
                 <div class="overlay">
@@ -433,25 +433,25 @@ function next() {
                 <div class="overlay">
                     <a href="${link}css-5.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
-                5
+                
             </div>
             <div class="pc-project six">
                 <div class="overlay">
                     <a href="${link}css-6.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                6
+                
             </div>
             <div class="pc-project seven">
                 <div class="overlay">
                     <a href="${link}css-7.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                7
+                
             </div>
             <div class="pc-project eight">
                 <div class="overlay">
                     <a href="${link}css-8.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                8
+                
             </div>
         </section>
         <button class="btn next-btn" onclick="previous()"> <i class="fa-solid fa-circle-left"></i> </button>
@@ -471,25 +471,25 @@ function previous() {
                 <div class="overlay">
                     <a href="${link}css-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
-                1
+                
             </div>
             <div class="pc-project two">
                 <div class="overlay">
                     <a href="${link}css-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                2
+                
             </div>
             <div class="pc-project three">
                 <div class="overlay">
                     <a href="${link}css-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                3
+                
             </div>
             <div class="pc-project four">
                 <div class="overlay">
                     <a href="${link}css-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                4
+                
             </div>
         </section>
         <button class="btn next-btn" onclick="next()"> <i class="fa-solid fa-circle-right"></i> </button>
@@ -551,19 +551,19 @@ function jsPrevious() {
                 <div class="overlay">
                     <a href="../jsInBetween/js-1.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
-                1
+                
             </div>
             <div class="pc-js-project jsTwo">
                 <div class="overlay">
                     <a href="../jsInBetween/js-2.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                2
+                
             </div>
             <div class="pc-js-project jsThree">
                 <div class="overlay">
                     <a href="../jsInBetween/js-3.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                3
+                
             </div>
             <div class="pc-js-project jsFour">
                 <div class="overlay">
