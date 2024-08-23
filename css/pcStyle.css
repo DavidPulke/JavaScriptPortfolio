@@ -387,6 +387,12 @@ span img[alt="Icon"] {
     background-position: center;
 }
 
+.jsFour {
+    background-image: url(../gallery/weatherBG.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .overlay-link {
     background-color: #fff;
     color: #333;

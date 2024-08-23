@@ -805,6 +805,13 @@ a:active {
 }
 
 
+.jsFour {
+    background-image: url(../gallery/weatherBG.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
 .video {
     position: absolute;
     width: 254px;
@@ -821,7 +828,9 @@ a:active {
 
 .jsOne a,
 .jsTwo a,
-.jsThree a {
+.jsThree a,
+.jsFour a,
+.jsFive a {
     width: 100%;
     height: 100%;
     color: white;
