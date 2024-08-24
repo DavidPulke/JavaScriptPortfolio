@@ -811,6 +811,12 @@ a:active {
     background-position: center;
 }
 
+.jsFive {
+    background-image: url(../gallery/calculator.png);
+    background-size: cover;
+    background-position: center;
+}
+
 
 .video {
     position: absolute;

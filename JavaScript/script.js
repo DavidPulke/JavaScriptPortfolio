@@ -514,7 +514,7 @@ function jsNext() {
                 <div class="overlay">
                     <a href="${jsLink}js-5.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                 </div>
-                5
+                
             </div>
             <div class="pc-js-project jsSix">
                 <div class="overlay">
@@ -635,7 +635,7 @@ function contact() {
                                             </div>
                                             <div class="app-form-group buttons">
                                                 <button onclick="formSent()" class="app-form-button"
-                                                  >Send</button>
+                                                >Send</button>
                                             </div>
                                             <div id="msgAfter"></div>
                                         
@@ -648,7 +648,7 @@ function contact() {
                 </div>
         </div>
     </section>
-     <div class="notFound">
+    <div class="notFound">
             <h1>404</h1>
             <h3>this theme can only reach to 730/900 px</h3>
             <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
