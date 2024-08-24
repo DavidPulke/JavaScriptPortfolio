@@ -336,11 +336,11 @@ const homePage = () => {
 
 
 let link = `../inBetween/`;
-let jsLink = `../jsInnBetween/`;
+let jsLink = `../jsInBetween/`;
 
 if (window.location.hostname.includes('github.io')) {
     link = `/JavaScriptPortfolio/inBetween/`;
-    jsLink = `/JavaScriptPortfolio/jsInBetween/`
+    jsLink = `/JavaScriptPortfolio/jsInBetween/`;
 }
 
 
