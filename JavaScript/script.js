@@ -171,7 +171,7 @@ if (localStorage.getItem("theme") == "PC MODE") {
                 <li class="projectsBtns">
                     <button onclick="projects()">Projects</button>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><button onclick="contact()">Contact</button></li>
             </ul>
         </nav>
 
@@ -259,7 +259,7 @@ let pcTheme = () => {
                 <li class="projectsBtns">
                     <button onclick="projects()">Projects</button>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><button onclick="contact()">Contact</button></li>
             </ul>
         </nav>
 
@@ -583,6 +583,77 @@ function jsPrevious() {
         </div>
         `
 
+}
+
+// contact display
+function contact() {
+    document.querySelector("main").innerHTML = ` <section class="contactContainer">
+
+        <div class="form-container">
+                <div class="background">
+                    <div class="container">
+                        <div class="screen">
+                            <div class="screen-header">
+                                <div class="screen-header-left">
+                                    <div class="screen-header-button close"></div>
+                                    <div class="screen-header-button maximize"></div>
+                                    <div class="screen-header-button minimize"></div>
+                                </div>
+                                <div class="screen-header-right">
+                                    <div class="screen-header-ellipsis"></div>
+                                    <div class="screen-header-ellipsis"></div>
+                                    <div class="screen-header-ellipsis"></div>
+                                </div>
+                            </div>
+                            <div class="screen-body">
+                                <div class="screen-body-item left">
+                                    <div class="app-title">
+                                        <span>CONTACT</span>
+                                        <span>US</span>
+                                    </div>
+                                    <div class="app-contact">CONTACT INFO : 053-606-1630</div>
+                                </div>
+                                <div class="screen-body-item">
+                                    <div class="app-form">
+                                        
+                                            <div class="app-form-group">
+                                                <input id="name" type="text" class="app-form-control"
+                                                    placeholder="NAME*" autocomplete="given-name" maxlength="22"
+                                                    required>
+                                            </div>
+                                            <div class="app-form-group">
+                                                <input id="mail" type="email" class="app-form-control"
+                                                    placeholder="EMAIL*" autocomplete="email" required>
+                                            </div>
+                                            <div class="app-form-group">
+                                                <input id="tel" type="tel" class="app-form-control"
+                                                    placeholder="CONTACT NO*" autocomplete="mobile" required>
+                                            </div>
+                                            <div class="app-form-group message">
+                                                <input maxlength="50" id="msg" class="app-form-control"
+                                                    placeholder="MESSAGE*" required>
+                                            </div>
+                                            <div class="app-form-group buttons">
+                                                <button onclick="formSent()" class="app-form-button"
+                                                  >Send</button>
+                                            </div>
+                                            <div id="msgAfter"></div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </section>
+     <div class="notFound">
+            <h1>404</h1>
+            <h3>this theme can only reach to 730/900 px</h3>
+            <h4>go back to the main theme: <button onclick="origin()">BACK</button></h4>
+        </div>
+        `
 }
 
 
