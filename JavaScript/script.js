@@ -413,7 +413,7 @@ function jsProjects() {
                 <div class="overlay">
                     <a href="${jsLink}js-4.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                4
+                
             </div>
         </section>
         <button class="js-btn next-btn" onclick="jsNext()"> <i class="fa-solid fa-circle-right"></i> </button>
@@ -520,7 +520,7 @@ function jsNext() {
                 <div class="overlay">
                     <a href="${jsLink}js-6.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
-                6
+                
             </div>
             <div class="pc-js-project jsSeven">
                 <div class="overlay">

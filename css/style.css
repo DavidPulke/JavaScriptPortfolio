@@ -36,7 +36,6 @@
 
 html {
     scroll-behavior: smooth;
-
 }
 
 
@@ -817,6 +816,12 @@ a:active {
     background-position: center;
 }
 
+.jsSix {
+    background-image: url(../gallery/Movies.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 .video {
     position: absolute;
@@ -836,7 +841,8 @@ a:active {
 .jsTwo a,
 .jsThree a,
 .jsFour a,
-.jsFive a {
+.jsFive a,
+.jsSix a {
     width: 100%;
     height: 100%;
     color: white;
