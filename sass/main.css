@@ -440,6 +440,9 @@
     width: 300px;
     height: 300px;
   }
+  .js-body footer .footer-container .social-icons {
+    font-size: 15px;
+  }
 }
 @media (max-height: 600px) {
   .js-body main img {
