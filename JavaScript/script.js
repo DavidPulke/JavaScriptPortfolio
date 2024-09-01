@@ -524,13 +524,13 @@ function jsNext() {
             </div>
             <div class="pc-js-project jsSeven">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${jsLink}js-7.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 7
             </div>
             <div class="pc-js-project jsEight">
                 <div class="overlay">
-                    <a href="#" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="${jsLink}js-8.html" class="overlay-link"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
                 8
             </div>

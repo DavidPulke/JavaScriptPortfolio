@@ -428,6 +428,18 @@ span img[alt="Icon"] {
     background-position: center;
 }
 
+.jsSeven {
+    background-image: url(../gallery/productsImage.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.jsEight {
+    background-image: url(../gallery/countrysBG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .overlay-link {
     background-color: #fff;
     color: #333;
