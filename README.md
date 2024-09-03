@@ -85,6 +85,7 @@ cd JavaScriptPortfolio
 
 
 Email: davidpolak10201@gmail.com
+
 GitHub: DavidPulke
 
 תודה על הצפייה בפורטפוליו שלי! מקווה שתהנו מהעבודה שלי ותמצאו אותה מעניינת ומועילה.
