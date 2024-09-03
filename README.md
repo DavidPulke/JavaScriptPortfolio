@@ -37,21 +37,21 @@ PC Theme: משנה את העיצוב הכללי של הדף למראה חדש ו
 
 רשימת פרויקטים JS
 
-BoxGame: 
+BoxGame: https://github.com/DavidPulke/BoxGame
 
-Manage-U:
+Manage-U: https://github.com/DavidPulke/manageu
 
-X - O:
+X - O: https://github.com/DavidPulke/X-O-Game
 
-WeatherAPI:
+WeatherAPI: https://github.com/DavidPulke/weather-api
 
 Calculator: https://github.com/DavidPulke/calculator
 
-MovieZone:
+MovieZone: https://github.com/DavidPulke/Movies
 
-ProductList:
+ProductList: https://davidpulke.github.io/productsList/about.html
 
-worldAPI:
+worldAPI: https://github.com/DavidPulke/apiMaps
 
 
 התקנה והרצה מקומית
