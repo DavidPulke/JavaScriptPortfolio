@@ -34,8 +34,14 @@ PC Theme: משנה את העיצוב הכללי של הדף למראה חדש ו
 
 ממשק משתמש ידידותי: ניווט פשוט ואינטואיטיבי בין הפרויקטים והעמודים השונים.
 
+רשימת פרויקטים CSS:
 
-רשימת פרויקטים JS
+כל המידע על הפרויקטים נמצא בReadMe הזה: https://github.com/DavidPulke/Portfolio
+
+
+
+רשימת פרויקטים JS:
+
 
 BoxGame: https://github.com/DavidPulke/BoxGame
 
