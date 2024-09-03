@@ -61,21 +61,31 @@ worldAPI: https://github.com/DavidPulke/apiMaps
 
 
 התקנה והרצה מקומית
+
 כדי להריץ את הפורטפוליו באופן מקומי במחשב שלך, בצע את השלבים הבאים:
 
+
 שיבוט המאגר:
+
 bash
 Copy code
 git clone https://github.com/username/JavaScriptPortfolio.git
+
 כניסה לתיקייה:
+
 bash
 Copy code
 cd JavaScriptPortfolio
+
 פתיחת הקובץ: פתח את index.html בדפדפן המועדף עליך.
+
 צור קשר
+
 אם יש לך שאלות, הערות או הצעות, אל תהסס ליצור איתי קשר:
+
 
 Email: davidpolak10201@gmail.com
 GitHub: DavidPulke
+
 תודה על הצפייה בפורטפוליו שלי! מקווה שתהנו מהעבודה שלי ותמצאו אותה מעניינת ומועילה.
 
