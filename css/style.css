@@ -135,7 +135,7 @@ input:-webkit-autofill:active {
 
 .phoneLinksContainer {
     background-color: #000000c4;
-    animation: growSize 1s ease-in;
+    animation: growSize 0.5s ease-in;
     height: 149px;
     width: 80%;
     margin: 0 auto;
