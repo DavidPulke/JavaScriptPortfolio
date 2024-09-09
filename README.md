@@ -1,48 +1,40 @@
-JavaScript & CSS Portfolio
-
-ברוכים הבאים לפורטפוליו הפרויקטים שלי! כאן תוכלו למצוא מגוון פרויקטים שיצרתי באמצעות JavaScript ו-CSS, המציגים את הכישורים והניסיון שלי בתחום הפיתוח.
-
-
-קישור לפורטפוליו החי: https://davidpulke.github.io/JavaScriptPortfolio/index.html
 
 
 
-על הפורטפוליו: נוצר בשל פרויקט של HackerU
+Welcome to My Project Portfolio! 
 
-תכונות:
-האתר בנוי לפרטי פרטים ומספק חווית גלישה מהנה.
-
-גולת הכותרת: 
-הפרויקטים של JavaScript .
+Here you can find a variety of projects I created using JavaScript and CSS, showcasing my skills and experience in development.
 
 
+Live Portfolio Link: https://davidpulke.github.io/JavaScriptPortfolio/index.html
 
-על הפורטפוליו:
-פורטפוליו זה מציג אוסף של פרויקטים שבניתי כדי להדגים את היכולות שלי בפיתוח אתרים באמצעות טכנולוגיות שונות. כל פרויקט כולל תיאור, הדגמה חיה וקוד מקור לעיון.
+About the Portfolio
+Created as part of a project at HackerU.
 
+Features
+The site is meticulously designed and provides an enjoyable browsing experience.
 
-תכונות
-מצבי עיצוב (Themes):
+Highlight
+JavaScript Projects.
 
+About the Portfolio
+This portfolio showcases a collection of projects I've built to demonstrate my web development abilities using various technologies. Each project includes a description, a live demo, and source code for review.
 
-מצב כהה (Dark Mode): מאפשר מעבר לעיצוב כהה לקריאה נוחה יותר בסביבות תאורה נמוכה.
+Design Themes:
+Dark Mode: Allows switching to a dark theme for more comfortable reading in low-light environments.
 
-PC Theme: משנה את העיצוב הכללי של הדף למראה חדש וייחודי, תוך שמירה על אותם פרויקטים ותוכן.
+PC Theme: Changes the overall design of the page to a new and unique look while keeping the same projects and content.
 
-התאמה למכשירים שונים: הפורטפוליו מותאם לצפייה במגוון רחב של מכשירים וגדלי מסך.
+Responsive Design
+The portfolio is optimized for viewing on a wide range of devices and screen sizes.
 
+User-Friendly Interface
+Simple and intuitive navigation between projects and different pages.
 
-ממשק משתמש ידידותי: ניווט פשוט ואינטואיטיבי בין הפרויקטים והעמודים השונים.
+CSS Project List:
+All project information can be found in this README.
 
-רשימת פרויקטים CSS:
-
-כל המידע על הפרויקטים נמצא בReadMe הזה: https://github.com/DavidPulke/Portfolio
-
-
-
-רשימת פרויקטים JS:
-
-
+JavaScript Project List:
 BoxGame: https://github.com/DavidPulke/BoxGame
 
 Manage-U: https://github.com/DavidPulke/manageu
@@ -59,34 +51,36 @@ ProductList: https://davidpulke.github.io/productsList/about.html
 
 worldAPI: https://github.com/DavidPulke/apiMaps
 
+Installation and Local Run
+To run the portfolio locally on your computer, follow these steps:
 
-התקנה והרצה מקומית
-
-כדי להריץ את הפורטפוליו באופן מקומי במחשב שלך, בצע את השלבים הבאים:
-
-
-שיבוט המאגר:
+Clone the repository:
 
 bash
+
 Copy code
+
 git clone https://github.com/username/JavaScriptPortfolio.git
 
-כניסה לתיקייה:
+Navigate to the folder:
 
 bash
+
 Copy code
+
 cd JavaScriptPortfolio
 
-פתיחת הקובץ: פתח את index.html בדפדפן המועדף עליך.
+Open the file:
 
-צור קשר
+Open index.html in your preferred browser.
 
-אם יש לך שאלות, הערות או הצעות, אל תהסס ליצור איתי קשר:
 
+Contact Me
+
+If you have any questions, comments, or suggestions, feel free to reach out:
 
 Email: davidpolak10201@gmail.com
 
 GitHub: DavidPulke
 
-תודה על הצפייה בפורטפוליו שלי! מקווה שתהנו מהעבודה שלי ותמצאו אותה מעניינת ומועילה.
-
+Thank you for viewing my portfolio! I hope you enjoy my work and find it interesting and useful.
