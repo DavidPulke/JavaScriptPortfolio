@@ -1,86 +1,91 @@
 
 
 
-Welcome to My Project Portfolio! 
+## Welcome to My Project Portfolio! 
 
 Here you can find a variety of projects I created using JavaScript and CSS, showcasing my skills and experience in development.
 
 
-Live Portfolio Link: https://davidpulke.github.io/JavaScriptPortfolio/index.html
+## Live Portfolio Link: https://davidpulke.github.io/JavaScriptPortfolio/index.html
 
-About the Portfolio
+## About the Portfolio
 Created as part of a project at HackerU.
 
-Features
+## Features
 The site is meticulously designed and provides an enjoyable browsing experience.
 
-Highlight
+## Highlight
 JavaScript Projects.
 
-About the Portfolio
+## About the Portfolio
 This portfolio showcases a collection of projects I've built to demonstrate my web development abilities using various technologies. Each project includes a description, a live demo, and source code for review.
 
-Design Themes:
-Dark Mode: Allows switching to a dark theme for more comfortable reading in low-light environments.
+## Design Themes:
+- Dark Mode: Allows switching to a dark theme for more comfortable reading in low-light environments.
 
-PC Theme: Changes the overall design of the page to a new and unique look while keeping the same projects and content.
+- ## PC Theme:
+- Placed on the top left side corner
+-  Changes the overall design of the page to a new and unique look while keeping the same projects and content.
 
-Responsive Design
+## Responsive Design
 The portfolio is optimized for viewing on a wide range of devices and screen sizes.
 
 User-Friendly Interface
 Simple and intuitive navigation between projects and different pages.
 
-CSS Project List:
+## CSS Project List:
 All project information can be found in this README.
+- https://github.com/DavidPulke/Portfolio
+  
 
-JavaScript Project List:
-BoxGame: https://github.com/DavidPulke/BoxGame
+## JavaScript Project List:
+- BoxGame: https://github.com/DavidPulke/BoxGame
 
-Manage-U: https://github.com/DavidPulke/manageu
+- Manage-U: https://github.com/DavidPulke/manageu
 
-X - O: https://github.com/DavidPulke/X-O-Game
+- X - O: https://github.com/DavidPulke/X-O-Game
 
-WeatherAPI: https://github.com/DavidPulke/weather-api
+- WeatherAPI: https://github.com/DavidPulke/weather-api
 
-Calculator: https://github.com/DavidPulke/calculator
+- Calculator: https://github.com/DavidPulke/calculator
 
-MovieZone: https://github.com/DavidPulke/Movies
+- MovieZone: https://github.com/DavidPulke/Movies
 
-ProductList: https://davidpulke.github.io/productsList/about.html
+- ProductList: https://davidpulke.github.io/productsList/about.html
 
-worldAPI: https://github.com/DavidPulke/apiMaps
+- worldAPI: https://github.com/DavidPulke/apiMaps
 
-Installation and Local Run
+## Installation and Local Run
 To run the portfolio locally on your computer, follow these steps:
 
 Clone the repository:
 
-bash
+- bash
 
-Copy code
+- Copy code
 
-git clone https://github.com/username/JavaScriptPortfolio.git
+- git clone https://github.com/username/JavaScriptPortfolio.git
 
-Navigate to the folder:
+## Navigate to the folder:
 
-bash
+- bash
 
-Copy code
+- Copy code
 
-cd JavaScriptPortfolio
+- cd JavaScriptPortfolio
 
-Open the file:
+## Open the file:
 
-Open index.html in your preferred browser.
+- Open index.html in your preferred browser.
 
 
-Contact Me
 
-If you have any questions, comments, or suggestions, feel free to reach out:
+## Contact Me
 
-Email: davidpolak10201@gmail.com
+- If you have any questions, comments, or suggestions, feel free to reach out:
 
-GitHub: DavidPulke
+- Email: davidpolak10201@gmail.com
 
-Thank you for viewing my portfolio! I hope you enjoy my work and find it interesting and useful.
+- GitHub: DavidPulke
+
+- Thank you for viewing my portfolio! I hope you enjoy my work and find it interesting and useful.
