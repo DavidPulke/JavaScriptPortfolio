@@ -55,28 +55,27 @@ All project information can be found in this README.
 
 - worldAPI: https://github.com/DavidPulke/apiMaps
 
-## Installation and Local Run
-To run the portfolio locally on your computer, follow these steps:
+### Prerequisites
+- Web browser (Chrome, Firefox, Safari, etc.)
+- Internet connection
 
-Clone the repository:
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/JavaScriptPortfolio.git
+    ```
 
-- bash
+2. Navigate to the project directory:
+    ```bash
+    cd JavaScriptPortfolio
+    ```
 
-- Copy code
+3. Open the `index.html` file:
+    Simply open the `index.html` file in your browser to start using the website.
 
-- git clone https://github.com/username/JavaScriptPortfolio.git
-
-## Navigate to the folder:
-
-- bash
-
-- Copy code
-
-- cd JavaScriptPortfolio
-
-## Open the file:
-
-- Open index.html in your preferred browser.
+## Usage
+1. Open the site in your browser.
+2. Use the dropdown menu to select a joke category.
 
 
 
